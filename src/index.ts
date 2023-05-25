@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { runCli } from './cli'
 import { logger } from './utils/logger'
 import { renderTitle } from './utils/renderTitle'
 
@@ -10,6 +11,7 @@ import { renderTitle } from './utils/renderTitle'
 // then it will generate a file .vscode/settings.json
 async function main() {
   renderTitle()
+  runCli()
 }
 
 main().catch((err) => {
