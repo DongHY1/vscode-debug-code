@@ -8,9 +8,13 @@
   "homepage": "https://github.com/DongHY1/vscode-debug-code#readme",
   "license": "MIT",
   "private": false,
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": "./dist/index.js",
+  "bin": {
+    "vdc": "./dist/index.js"
+  },
   "scripts": {
     "dev": "vitest --ui",
     "test": "vitest run",
