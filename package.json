@@ -2,10 +2,10 @@
   "name": "hystart-ts",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@8.2.0",
-  "description": "my start template",
+  "packageManager": "pnpm@8.5.1",
+  "description": "vdc (vscode-debug-code) is an npm library aimed at simplifying the process of setting up a debugger environment.",
   "author": "Dong HY <hi@donghy.me>",
-  "homepage": "https://github.com/DongHY1/[name]#readme",
+  "homepage": "https://github.com/DongHY1/vscode-debug-code#readme",
   "license": "MIT",
   "private": false,
   "main": "dist/index.js",
@@ -39,5 +39,11 @@
     "typescript": "^5.0.4",
     "vite": "^4.2.1",
     "vitest": "^0.30.1"
+  },
+  "dependencies": {
+    "cac": "^6.7.14",
+    "chalk": "^5.2.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.2.6"
   }
 }
